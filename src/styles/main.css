@@ -318,6 +318,75 @@ h1 {
   object-fit: cover;
 }
 
+.prompt-stack {
+  display: grid;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.prompt-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  padding: 24px;
+  background: rgba(255, 250, 244, 0.78);
+  box-shadow: var(--shadow);
+}
+
+.prompt-card h3 {
+  margin-bottom: 14px;
+  font-size: 1.4rem;
+}
+
+.prompt-text {
+  margin: 0;
+  white-space: pre-wrap;
+  color: var(--muted);
+  font: inherit;
+  line-height: 1.65;
+}
+
+.previs-block {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.28fr);
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.previs-copy,
+.previs-visual {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  box-shadow: var(--shadow);
+}
+
+.previs-copy {
+  padding: 24px;
+  background: rgba(255, 250, 244, 0.78);
+}
+
+.previs-copy h3 {
+  margin-bottom: 14px;
+  font-size: 1.4rem;
+}
+
+.previs-copy p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.previs-visual {
+  display: block;
+  background: #d4ccbe;
+}
+
+.previs-visual img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
 .lightbox {
   width: min(92vw, 1300px);
   max-width: none;
@@ -375,7 +444,8 @@ h1 {
   .location-heading,
   .overview-grid,
   .notes-grid,
-  .adaptation-block {
+  .adaptation-block,
+  .previs-block {
     grid-template-columns: 1fr;
   }
 

@@ -212,6 +212,10 @@ h1 {
   margin-bottom: 14px;
 }
 
+.gallery-primary-single {
+  grid-template-columns: 1fr;
+}
+
 .gallery-thumbs {
   grid-template-columns: repeat(6, minmax(0, 1fr));
   margin-bottom: 22px;

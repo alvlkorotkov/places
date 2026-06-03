@@ -528,6 +528,55 @@ Everything must look physically plausible and naturally composited into the orig
           </div>
         </div>
 
+        <div class="workflow-block" aria-labelledby="morgue-workflow-title">
+          <div class="workflow-copy">
+            <p class="eyebrow">Morgue Workflow</p>
+            <h3 id="morgue-workflow-title">Who Does What</h3>
+            <p>
+              Для морга лучший путь сейчас не “еще один большой prompt”, а
+              разделение на контролируемые этапы. Codex держит структуру,
+              проверку и публикацию, а точечную сохранную ретушь лучше делать в
+              редакторе по исходнику <code>space-1.2.jpg</code>.
+            </p>
+            <p>
+              Подробная рабочая инструкция вынесена в
+              <a href="./docs/morgue-production-workflow.md">docs/morgue-production-workflow.md</a>.
+            </p>
+          </div>
+
+          <div class="workflow-grid">
+            <article class="workflow-card">
+              <h4>Что можно оставить Codex</h4>
+              <ul>
+                <li>Структура этапов в лендинге.</li>
+                <li>Prompt и negative prompt для каждого прохода.</li>
+                <li>Проверка на потерю окон, двери и геометрии.</li>
+                <li>Встраивание готовых изображений обратно в проект и публикация.</li>
+              </ul>
+            </article>
+
+            <article class="workflow-card">
+              <h4>Что лучше сделать вручную</h4>
+              <ul>
+                <li>Clean plate без потери 3 окон.</li>
+                <li>Удаление люстр и восстановление потолка.</li>
+                <li>Удаление стола, растений и лавок.</li>
+                <li>Точная дорисовка ламп и кушеток на чистой базе.</li>
+              </ul>
+            </article>
+
+            <article class="workflow-card">
+              <h4>Практический маршрут</h4>
+              <ul>
+                <li>Сначала clean plate.</li>
+                <li>Потом lighting pass.</li>
+                <li>Потом set dressing с 5 кушетками.</li>
+                <li>Потом финальная сборка и возврат в лендинг.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
         <div class="adaptation-block" aria-labelledby="morgue-adaptation-title">
           <div class="adaptation-copy">
             <p class="eyebrow">Location 02 Morgue</p>

@@ -1,0 +1,110 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wall" x1="130" y1="100" x2="1480" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2E9DA"/>
+      <stop offset="1" stop-color="#D4C4AE"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="800" y1="470" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E2D7C7"/>
+      <stop offset="1" stop-color="#C7B8A0"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F7FCFF"/>
+      <stop offset="0.45" stop-color="#B3C0C8"/>
+      <stop offset="1" stop-color="#7D8D96"/>
+    </linearGradient>
+    <radialGradient id="cold" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 420) rotate(90) scale(290 710)">
+      <stop stop-color="#DDF0FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#DDF0FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="#EAE2D4"/>
+  <rect x="96" y="86" width="1408" height="728" rx="28" fill="url(#wall)"/>
+
+  <rect x="96" y="86" width="1408" height="458" rx="28" fill="url(#wall)"/>
+  <rect x="96" y="544" width="1408" height="270" fill="url(#floor)"/>
+
+  <path d="M96 544H1504" stroke="#C6B79E" stroke-width="3"/>
+  <path d="M96 621H1504" stroke="#C6B79E" stroke-width="3"/>
+  <path d="M96 698H1504" stroke="#C6B79E" stroke-width="3"/>
+  <path d="M96 775H1504" stroke="#C6B79E" stroke-width="3"/>
+
+  <path d="M352 544V814" stroke="#C6B79E" stroke-width="3"/>
+  <path d="M608 544V814" stroke="#C6B79E" stroke-width="3"/>
+  <path d="M864 544V814" stroke="#C6B79E" stroke-width="3"/>
+  <path d="M1120 544V814" stroke="#C6B79E" stroke-width="3"/>
+
+  <g opacity="0.95">
+    <path d="M322 462C322 372 380 300 454 300C528 300 586 372 586 462V526H322V462Z" fill="#F5F7F6"/>
+    <rect x="354" y="362" width="200" height="164" fill="#DAE9ED"/>
+    <path d="M422 362V526" stroke="#AAB8BD" stroke-width="5"/>
+    <path d="M486 362V526" stroke="#AAB8BD" stroke-width="5"/>
+    <path d="M354 430H554" stroke="#AAB8BD" stroke-width="5"/>
+
+    <path d="M726 462C726 372 784 300 858 300C932 300 990 372 990 462V526H726V462Z" fill="#F5F7F6"/>
+    <rect x="758" y="362" width="200" height="164" fill="#DCE9EC"/>
+    <path d="M826 362V526" stroke="#AAB8BD" stroke-width="5"/>
+    <path d="M890 362V526" stroke="#AAB8BD" stroke-width="5"/>
+    <path d="M758 430H958" stroke="#AAB8BD" stroke-width="5"/>
+
+    <path d="M1130 462C1130 372 1188 300 1262 300C1336 300 1394 372 1394 462V526H1130V462Z" fill="#F5F7F6"/>
+    <rect x="1162" y="362" width="200" height="164" fill="#DCE9EC"/>
+    <path d="M1230 362V526" stroke="#AAB8BD" stroke-width="5"/>
+    <path d="M1294 362V526" stroke="#AAB8BD" stroke-width="5"/>
+    <path d="M1162 430H1362" stroke="#AAB8BD" stroke-width="5"/>
+  </g>
+
+  <rect x="620" y="178" width="362" height="18" rx="9" fill="#C8D0D6"/>
+  <rect x="700" y="208" width="202" height="30" rx="10" fill="#EFF5F8"/>
+  <rect x="700" y="208" width="202" height="30" rx="10" fill="url(#cold)"/>
+  <rect x="700" y="196" width="4" height="12" fill="#AAB5BC"/>
+  <rect x="898" y="196" width="4" height="12" fill="#AAB5BC"/>
+
+  <rect x="440" y="250" width="282" height="18" rx="9" fill="#C8D0D6"/>
+  <rect x="520" y="280" width="122" height="26" rx="9" fill="#EFF5F8"/>
+  <rect x="960" y="250" width="282" height="18" rx="9" fill="#C8D0D6"/>
+  <rect x="1040" y="280" width="122" height="26" rx="9" fill="#EFF5F8"/>
+
+  <g opacity="0.96">
+    <ellipse cx="520" cy="640" rx="92" ry="34" fill="#C6D0D5"/>
+    <rect x="430" y="576" width="180" height="58" rx="8" fill="url(#metal)"/>
+    <rect x="452" y="634" width="16" height="64" rx="6" fill="#99AAB2"/>
+    <rect x="572" y="634" width="16" height="64" rx="6" fill="#99AAB2"/>
+    <path d="M454 612C486 588 558 586 588 612C566 638 478 640 454 612Z" fill="#F7F7F3"/>
+    <path d="M438 610C476 574 568 576 604 610C568 646 476 650 438 610Z" fill="#E9ECE9"/>
+    <path d="M452 626C486 650 556 650 590 626" stroke="#CDD3D5" stroke-width="5"/>
+
+    <ellipse cx="704" cy="640" rx="92" ry="34" fill="#C6D0D5"/>
+    <rect x="614" y="576" width="180" height="58" rx="8" fill="url(#metal)"/>
+    <rect x="636" y="634" width="16" height="64" rx="6" fill="#99AAB2"/>
+    <rect x="756" y="634" width="16" height="64" rx="6" fill="#99AAB2"/>
+    <path d="M622 610C658 574 748 576 784 610C750 646 658 650 622 610Z" fill="#E9ECE9"/>
+    <path d="M636 626C670 650 740 650 774 626" stroke="#CDD3D5" stroke-width="5"/>
+
+    <ellipse cx="888" cy="640" rx="92" ry="34" fill="#C6D0D5"/>
+    <rect x="798" y="576" width="180" height="58" rx="8" fill="url(#metal)"/>
+    <rect x="820" y="634" width="16" height="64" rx="6" fill="#99AAB2"/>
+    <rect x="940" y="634" width="16" height="64" rx="6" fill="#99AAB2"/>
+    <path d="M806 610C842 574 932 576 968 610C934 646 842 650 806 610Z" fill="#E9ECE9"/>
+    <path d="M820 626C854 650 924 650 958 626" stroke="#CDD3D5" stroke-width="5"/>
+
+    <ellipse cx="1072" cy="640" rx="92" ry="34" fill="#C6D0D5"/>
+    <rect x="982" y="576" width="180" height="58" rx="8" fill="url(#metal)"/>
+    <rect x="1004" y="634" width="16" height="64" rx="6" fill="#99AAB2"/>
+    <rect x="1124" y="634" width="16" height="64" rx="6" fill="#99AAB2"/>
+    <path d="M990 610C1026 574 1116 576 1152 610C1118 646 1026 650 990 610Z" fill="#E9ECE9"/>
+    <path d="M1004 626C1038 650 1108 650 1142 626" stroke="#CDD3D5" stroke-width="5"/>
+
+    <ellipse cx="1250" cy="682" rx="88" ry="32" fill="#BFCAD0"/>
+    <rect x="1166" y="622" width="168" height="54" rx="8" fill="url(#metal)"/>
+    <rect x="1186" y="676" width="16" height="58" rx="6" fill="#99AAB2"/>
+    <rect x="1298" y="676" width="16" height="58" rx="6" fill="#99AAB2"/>
+    <path d="M1178 654C1210 622 1290 624 1322 654C1292 686 1208 690 1178 654Z" fill="#E9ECE9"/>
+  </g>
+
+  <rect x="104" y="86" width="1392" height="728" fill="url(#cold)"/>
+
+  <text x="124" y="768" fill="#F8F5EF" font-family="Georgia, serif" font-size="34" letter-spacing="0.12em">MORGUE ADAPTATION</text>
+  <text x="124" y="808" fill="#F1ECE3" font-family="Georgia, serif" font-size="20">5 chrome gurneys, clinical lamps, empty hall, cold symmetry, sterile twilight</text>
+</svg>

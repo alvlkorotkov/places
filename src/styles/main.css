@@ -201,16 +201,20 @@ h1 {
   line-height: 1.7;
 }
 
-.gallery-grid {
+.gallery-primary,
+.gallery-thumbs {
   display: grid;
   gap: 14px;
-  margin-bottom: 22px;
 }
 
-.gallery-grid-kitchen,
-.gallery-grid-morgue,
-.gallery-grid-hall {
-  grid-template-columns: 1.5fr 1fr 1fr;
+.gallery-primary {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 14px;
+}
+
+.gallery-thumbs {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  margin-bottom: 22px;
 }
 
 .gallery-item {
@@ -230,9 +234,13 @@ h1 {
   transform: scale(1.03);
 }
 
-.gallery-item-large {
-  grid-row: span 2;
-  min-height: 100%;
+.gallery-item-primary {
+  aspect-ratio: 16 / 10;
+}
+
+.gallery-item-thumb {
+  min-height: 0;
+  aspect-ratio: 4 / 3;
 }
 
 .notes-grid {
@@ -327,18 +335,18 @@ h1 {
     padding: 24px;
   }
 
-  .gallery-grid-kitchen,
-  .gallery-grid-morgue,
-  .gallery-grid-hall {
+  .gallery-primary {
     grid-template-columns: 1fr;
   }
 
-  .gallery-item,
-  .gallery-item-large {
-    min-height: 220px;
+  .gallery-thumbs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .gallery-item-large {
-    grid-row: auto;
+  .gallery-item,
+  .gallery-item-primary,
+  .gallery-item-thumb {
+    min-height: 220px;
+    aspect-ratio: auto;
   }
 }

@@ -2,6 +2,9 @@
 
 Основа: `assets/images/Morgue/space-1.2.jpg`
 
+Текущая зафиксированная рабочая база для следующих трансформаций:
+`assets/images/Morgue/morgue-staging-safe-previs.png`
+
 ## Что можно оставить Codex
 
 - Зафиксировать структуру задачи в лендинге.

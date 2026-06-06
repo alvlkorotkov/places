@@ -8,594 +8,112 @@
   </head>
   <body>
     <main class="page">
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a class="site-nav-logo" href="./index.html">Taste of Blood</a>
+        <div class="site-nav-links">
+          <a class="is-active" href="./index.html">Главная</a>
+          <a href="./kitchen.html">Kitchen</a>
+          <a href="./morgue.html">Morgue</a>
+          <a href="./hall.html">Main Hall</a>
+        </div>
+      </nav>
+
       <section class="hero">
         <div class="hero-copy">
           <p class="eyebrow">Taste of Blood</p>
-          <h1>Лендинг по площадкам и художественному решению</h1>
+          <h1>Разводящий лендинг по трем локациям</h1>
           <p class="lead">
-            Рабочая презентация по трем локациям проекта «Вкус крови»: кухне,
-            моргу и основному залу вампиров. Задача страницы — быстро показать
-            исходные пространства, будущий редрессинг и атмосферу для
-            согласования с командой.
+            Текущая главная страница теперь работает как вход в три отдельные
+            подлендинга: кухня, морг и основной зал вампиров. Внутри каждой
+            страницы уже лежат свои референсы, адаптации, превизы и рабочие
+            проходы без перегруза общей витрины.
           </p>
         </div>
 
         <div class="hero-panel">
-          <p class="panel-label">Что нужно от страницы</p>
+          <p class="panel-label">Как пользоваться</p>
           <ul class="panel-list">
-            <li>Зафиксировать три ключевые локации.</li>
-            <li>Показать, что сохраняем, что убираем и что достраиваем.</li>
-            <li>Собрать основу для обсуждения с режиссером и цехами.</li>
+            <li>Выбрать нужную локацию ниже.</li>
+            <li>Открыть отдельный подлендинг с полным набором материалов.</li>
+            <li>Обсуждать каждую площадку отдельно, а не в одном длинном полотне.</li>
           </ul>
         </div>
       </section>
 
       <section class="overview" aria-labelledby="overview-title">
         <div class="section-heading">
-          <p class="eyebrow">Overview</p>
-          <h2 id="overview-title">Три опорные зоны проекта</h2>
+          <p class="eyebrow">Locations</p>
+          <h2 id="overview-title">Три отдельные ветки просмотра</h2>
           <p class="section-lead">
-            По встрече от 3 июня 2026 года это не просто подбор площадок, а
-            черновая production design-презентация: наглядно показываем, как
-            локации могут выглядеть после вмешательства художки.
+            Каждая карточка ведет в свой подлендинг. Главная страница теперь не
+            хранит все галереи подряд, а разводит по трем локациям с более
+            чистой логикой просмотра.
           </p>
         </div>
 
-        <div class="overview-grid">
-          <article class="overview-card">
-            <p class="space-tag">01</p>
+        <div class="hub-grid">
+          <a class="hub-card" href="./kitchen.html">
+            <span class="space-tag">01</span>
+            <div class="hub-preview">
+              <img src="./assets/images/Kitchen/Kitchen - 1.jpg" alt="Превью подлендинга кухни" />
+            </div>
             <h3>Kitchen</h3>
             <p>
               Индустриальная кухня с хромированной рабочей линией, закатным
-              светом и холодной функциональностью.
+              светом и встроенной режиссурой движения.
             </p>
-          </article>
+            <span class="hub-link">Открыть подлендинг</span>
+          </a>
 
-          <article class="overview-card">
-            <p class="space-tag">02</p>
+          <a class="hub-card" href="./morgue.html">
+            <span class="space-tag">02</span>
+            <div class="hub-preview">
+              <img src="./assets/images/Morgue/space-1.2.jpg" alt="Превью подлендинга морга" />
+            </div>
             <h3>Morgue</h3>
             <p>
-              Светлое стерильное пространство с клинической пустотой и
-              подчеркнутой симметрией.
+              Стерильный арочный зал с отдельной веткой по зачистке, свету,
+              кушеткам и вариантам дальнейшей постановки.
             </p>
-          </article>
+            <span class="hub-link">Открыть подлендинг</span>
+          </a>
 
-          <article class="overview-card">
-            <p class="space-tag">03</p>
+          <a class="hub-card" href="./hall.html">
+            <span class="space-tag">03</span>
+            <div class="hub-preview">
+              <img src="./assets/images/Living Room/generated/hall-8339-table-only-v11.png" alt="Превью подлендинга основного зала вампиров" />
+            </div>
             <h3>Main Hall of Vampires</h3>
             <p>
-              Главный зал с тяжелым столом, скамьями, хромом, стеклом и
-              сумрачной ритуальной атмосферой.
+              Отдельная страница по залу со схемами, пустыми проходами,
+              серией приближения к столу и всем визуальным развитием этой сцены.
             </p>
-          </article>
+            <span class="hub-link">Открыть подлендинг</span>
+          </a>
         </div>
       </section>
 
-      <section class="location" id="kitchen" aria-labelledby="kitchen-title">
-        <div class="location-heading">
-          <div>
-            <p class="eyebrow">Location 01</p>
-            <h2 id="kitchen-title">Kitchen</h2>
-          </div>
-          <p class="location-summary">
-            Базовая индустриальная площадка под съемку всей истории с едой.
-            Главное — не убить заводской скелет пространства, а встроить в него
-            длинную хромированную рабочую кухню.
+      <section class="page-intro">
+        <article class="page-intro-card">
+          <p class="eyebrow">Why Split</p>
+          <h2>Почему это удобнее</h2>
+          <p>
+            Раньше один лендинг слишком разрастался и терял фокус. Теперь
+            главная работает как короткая точка входа, а каждая локация живет в
+            своей отдельной странице с собственной драматургией просмотра.
           </p>
-        </div>
+        </article>
 
-        <div class="gallery-primary gallery-primary-single">
-          <a class="gallery-item gallery-item-primary" href="./assets/images/Kitchen/Kitchen - 1.jpg" data-lightbox>
-            <img src="./assets/images/Kitchen/Kitchen - 1.jpg" alt="Исходная площадка под кухню" />
-          </a>
-        </div>
-
-        <div class="gallery-thumbs">
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Kitchen/IMG_2733.JPEG" data-lightbox>
-            <img src="./assets/images/Kitchen/IMG_2733.JPEG" alt="Широкий дополнительный вид площадки под кухню" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Kitchen/IMG_2721.JPEG" data-lightbox>
-            <img src="./assets/images/Kitchen/IMG_2721.JPEG" alt="Дополнительный ракурс площадки под кухню" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Kitchen/IMG_2728.JPEG" data-lightbox>
-            <img src="./assets/images/Kitchen/IMG_2728.JPEG" alt="Еще один ракурс кухонной площадки" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Kitchen/IMG_8326.JPEG" data-lightbox>
-            <img src="./assets/images/Kitchen/IMG_8326.JPEG" alt="Вертикальный ракурс кухни у окна" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Kitchen/IMG_8334.JPEG" data-lightbox>
-            <img src="./assets/images/Kitchen/IMG_8334.JPEG" alt="Вертикальный ракурс задней зоны кухни" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Kitchen/IMG_8345.JPEG" data-lightbox>
-            <img src="./assets/images/Kitchen/IMG_8345.JPEG" alt="Дополнительный общий план кухонной площадки" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Kitchen/IMG_8353.JPEG" data-lightbox>
-            <img src="./assets/images/Kitchen/IMG_8353.JPEG" alt="Еще один технический вид кухни" />
-          </a>
-        </div>
-
-        <div class="notes-grid">
-          <article class="note-card">
-            <h3>Что сохраняем</h3>
-            <ul>
-              <li>Трубы под потолком.</li>
-              <li>Существующий пол.</li>
-              <li>Жесткую индустриальную геометрию помещения.</li>
-            </ul>
-          </article>
-
-          <article class="note-card">
-            <h3>Что убираем</h3>
-            <ul>
-              <li>Мусор и склад с левой стороны у окна.</li>
-              <li>Черную тряпку справа.</li>
-              <li>Цветную стену и двери как видимый элемент кадра.</li>
-            </ul>
-          </article>
-
-          <article class="note-card">
-            <h3>Что достраиваем</h3>
-            <ul>
-              <li>Серую накладную стену по заднему фронту.</li>
-              <li>Длинную линию хромированных столов, плиты и мойки.</li>
-              <li>Отдельный рабочий стол Дмитрия параллельно задней линии.</li>
-              <li>Рейлы с кухонной утварью на стене.</li>
-            </ul>
-          </article>
-
-          <article class="note-card">
-            <h3>Свет и ощущение</h3>
-            <ul>
-              <li>Закатный солнечный луч.</li>
-              <li>Холодный металл, серость и функциональность.</li>
-              <li>Ощущение профессиональной кухни без лишнего быта.</li>
-            </ul>
-          </article>
-        </div>
-
-        <div class="adaptation-block" aria-labelledby="kitchen-adaptation-title">
-          <div class="adaptation-copy">
-            <p class="eyebrow">Location 01 Kitchen</p>
-            <h3 id="kitchen-adaptation-title">Адаптация</h3>
-            <p>
-              По транскрибации первая кухня должна остаться в текущей серо-зеленой
-              индустриальной гамме, но стать чистой и хирургически собранной:
-              цветной задник перекрывается серой стеной, слева исчезает мусор,
-              справа уходит черная тряпка, а вдоль дальней стены выстраивается
-              сплошная хромированная линия из столов, плиты, мойки и
-              холодильника.
-            </p>
-            <p>
-              Над рабочей линией висит длинный рейл с редкими половниками и
-              ножами, в центре ближе к камере появляется отдельный хромированный
-              рабочий стол, а из окна слева в комнату входит закатный теплый луч.
-            </p>
-          </div>
-
-          <a class="adaptation-visual" href="./assets/images/Kitchen/kitchen-adaptation.svg" data-lightbox>
-            <img src="./assets/images/Kitchen/kitchen-adaptation.svg" alt="Рисованная адаптация первой кухонной локации" />
-          </a>
-        </div>
-
-        <div class="previs-block" aria-labelledby="kitchen-previs-title">
-          <div class="previs-copy">
-            <p class="eyebrow">Kitchen Output</p>
-            <h3 id="kitchen-previs-title">Kitchen Previs</h3>
-            <p>
-              Ниже оставлена фотореалистичная превиза кухни как отдельный
-              результат по этой локации: она помогает сравнить рисованную
-              адаптацию с более реалистичной подачей пространства.
-            </p>
-          </div>
-
-          <a class="previs-visual" href="./assets/images/Kitchen/kitchen-photoreal-previs.png" data-lightbox>
-            <img src="./assets/images/Kitchen/kitchen-photoreal-previs.png" alt="Фотореалистичная превиза адаптированной кухонной локации" />
-          </a>
-        </div>
-
-      </section>
-
-      <section class="location" id="morgue" aria-labelledby="morgue-title">
-        <div class="location-heading">
-          <div>
-            <p class="eyebrow">Location 02</p>
-            <h2 id="morgue-title">Morgue</h2>
-          </div>
-          <p class="location-summary">
-            Самая чистая по базе площадка. Важнее всего подчеркнуть стерильность,
-            арочную симметрию и тревожную пустоту, а не перегрузить ее деталями.
+        <article class="page-intro-card">
+          <p class="eyebrow">Structure</p>
+          <h2>Что внутри подлендингов</h2>
+          <p>
+            Внутри каждой локации остаются галереи базы, карточки по художественной
+            логике, адаптации, превизы и все рабочие итерации, которые важны
+            именно для этой площадки.
           </p>
-        </div>
-
-        <div class="gallery-primary gallery-primary-single">
-          <a class="gallery-item gallery-item-primary" href="./assets/images/Morgue/space-1.2.jpg" data-lightbox>
-            <img src="./assets/images/Morgue/space-1.2.jpg" alt="Основной рабочий ракурс площадки под морг для clean plate" />
-          </a>
-        </div>
-
-        <div class="gallery-thumbs">
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Morgue/space-1.1.jpg" data-lightbox>
-            <img src="./assets/images/Morgue/space-1.1.jpg" alt="Альтернативный широкий ракурс площадки под морг" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Morgue/IMG_6772.JPEG" data-lightbox>
-            <img src="./assets/images/Morgue/IMG_6772.JPEG" alt="Дополнительный референс помещения под морг" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Morgue/IMG_6773.JPEG" data-lightbox>
-            <img src="./assets/images/Morgue/IMG_6773.JPEG" alt="Ракурс морга с другим углом симметрии" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Morgue/IMG_2740.JPEG" data-lightbox>
-            <img src="./assets/images/Morgue/IMG_2740.JPEG" alt="Широкий технический вид помещения под морг" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Morgue/IMG_8335.JPEG" data-lightbox>
-            <img src="./assets/images/Morgue/IMG_8335.JPEG" alt="Дополнительный ракурс окна и стены в морге" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Morgue/IMG_8374.JPEG" data-lightbox>
-            <img src="./assets/images/Morgue/IMG_8374.JPEG" alt="Еще один рабочий вид площадки под морг" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Morgue/IMG_8380.JPEG" data-lightbox>
-            <img src="./assets/images/Morgue/IMG_8380.JPEG" alt="Детализированный ракурс помещения под морг" />
-          </a>
-        </div>
-
-        <div class="notes-grid">
-          <article class="note-card">
-            <h3>Базовое считывание</h3>
-            <ul>
-              <li>Стерильный и почти музейный зал.</li>
-              <li>Мягкая клиническая тревога вместо прямого хоррора.</li>
-              <li>Арочные окна и пустота работают на драму сами по себе.</li>
-            </ul>
-          </article>
-
-          <article class="note-card">
-            <h3>Почему локация сильная</h3>
-            <ul>
-              <li>Симметрия кадра уже дает готовую композицию.</li>
-              <li>Светлые поверхности легко уводятся в стерильность.</li>
-              <li>Пространство не требует такого большого редрессинга, как кухня.</li>
-            </ul>
-          </article>
-
-          <article class="note-card">
-            <h3>Что важно в подаче</h3>
-            <ul>
-              <li>Не захламлять кадр лишним декором.</li>
-              <li>Оставить ощущение воздуха и пустоты.</li>
-              <li>Показывать локацию как чистую и тревожно спокойную.</li>
-            </ul>
-          </article>
-        </div>
-
-        <div class="adaptation-block" aria-labelledby="morgue-adaptation-title">
-          <div class="adaptation-copy">
-            <p class="eyebrow">Location 02 Morgue</p>
-            <h3 id="morgue-adaptation-title">Адаптация</h3>
-            <p>
-              По транскрибации морг должен стать почти полностью зачищенным
-              пространством: убираются люстры, цветы, скамейки и столы, а
-              помещение собирается как пустой клинический зал с жесткой
-              симметрией и тревожной стерильностью.
-            </p>
-            <p>
-              Вместо люстр появляются две спускающиеся больничные люминесцентные
-              лампы, а в центре кадра выстраиваются пять хромированных кушеток с
-              накрытыми телами. Свет можно мыслить в двух режимах, но базовое
-              ощущение здесь — холодная чистота и тишина перед действием.
-            </p>
-          </div>
-
-          <a class="adaptation-visual" href="./assets/images/Morgue/morgue-adaptation.svg" data-lightbox>
-            <img src="./assets/images/Morgue/morgue-adaptation.svg" alt="Рисованная адаптация локации морга" />
-          </a>
-        </div>
-
-        <div class="previs-block" aria-labelledby="morgue-previs-v2-title">
-          <div class="previs-copy">
-            <p class="eyebrow">Morgue Output</p>
-            <h3 id="morgue-previs-v2-title">Refined Composite Pass</h3>
-            <p>
-              Ниже добавлен следующий проход по той же safe-базе: люстры уже
-              убраны, а потолок дополнительно зачищен вручную и локально
-              выровнен по швам, чтобы верх кадра читался цельнее.
-            </p>
-            <p>
-              Это не замена исходной safe-версии, а ее следующая рабочая
-              итерация для презентации более чистого варианта морга на том же
-              архитектурном каркасе.
-            </p>
-          </div>
-
-          <a class="previs-visual" href="./assets/images/Morgue/morgue-staging-safe-previs v2.png" data-lightbox>
-            <img src="./assets/images/Morgue/morgue-staging-safe-previs v2.png" alt="Доработанная staging-превиза морга без люстр и с зачищенным потолком" />
-          </a>
-        </div>
-
-        <div class="previs-block" aria-labelledby="morgue-previs-v6-title">
-          <div class="previs-copy">
-            <p class="eyebrow">Morgue Output</p>
-            <h3 id="morgue-previs-v6-title">Cat Variant From V4 Base</h3>
-            <p>
-              Следующий проход сделан уже от базы
-              <code>morgue-v4-evening-lamps-on-door-curtain-short-left-gurney.png</code>:
-              короткая левая кушетка теперь работает как отдельный вариант под
-              котика.
-            </p>
-            <p>
-              Кот лежит на спине мордочкой вверх, лапками к камере, чтобы силуэт
-              и сама идея считывались сразу даже в превью-кропе на странице.
-            </p>
-          </div>
-
-          <a class="previs-visual" href="./assets/images/Morgue/morgue-v6-evening-cat-paws-up-left-gurney.png" data-lightbox>
-            <img src="./assets/images/Morgue/morgue-v6-evening-cat-paws-up-left-gurney.png" alt="Вариант морга на базе v4 с котиком на левой короткой кушетке: кот лежит на спине, мордочкой вверх и лапками к зрителю" />
-          </a>
-        </div>
-
-        <div class="previs-block" aria-labelledby="morgue-previs-v7-title">
-          <div class="previs-copy">
-            <p class="eyebrow">Morgue Output</p>
-            <h3 id="morgue-previs-v7-title">Covered Cat Variant</h3>
-            <p>
-              Отдельный следующий вариант сохраняет ту же сцену и ту же позу
-              котика, но теперь он накрыт такой же белой тканью, как и другие
-              тела на кушетках.
-            </p>
-            <p>
-              Лапки остаются снаружи и торчат в сторону камеры, чтобы эта
-              деталь читалась сразу и в превью, и в полном просмотре.
-            </p>
-          </div>
-
-          <a class="previs-visual" href="./assets/images/Morgue/morgue-v7-evening-cat-covered-paws-out-left-gurney.png" data-lightbox>
-            <img src="./assets/images/Morgue/morgue-v7-evening-cat-covered-paws-out-left-gurney.png" alt="Вариант морга на базе v4: котик на левой короткой кушетке накрыт белой тканью, а лапки торчат наружу к зрителю" />
-          </a>
-        </div>
-
-        <div class="previs-block" aria-labelledby="morgue-previs-v9-title">
-          <div class="previs-copy">
-            <p class="eyebrow">Morgue Output</p>
-            <h3 id="morgue-previs-v9-title">Covered Cat Variant, Colder Morgue Light</h3>
-            <p>
-              Это отдельная вариация того же покрытого котика, но уже с более
-              реалистичным светом морга: холодным, клиническим и более
-              стерильным по ощущению.
-            </p>
-            <p>
-              Геометрия комнаты и вся логика сцены сохранены, а настроение
-              сдвинуто в сторону настоящего холодного моргового освещения.
-            </p>
-          </div>
-
-          <a class="previs-visual" href="./assets/images/Morgue/morgue-v9-covered-cat-cold-clinical-morgue-light.png" data-lightbox>
-            <img src="./assets/images/Morgue/morgue-v9-covered-cat-cold-clinical-morgue-light.png" alt="Холодный клинический вариант морга: котик на левой короткой кушетке накрыт белой тканью, лапки торчат наружу, а свет более стерильный и морговый" />
-          </a>
-        </div>
-
-        <div class="workflow-block">
-          <div class="workflow-copy">
-            <p class="eyebrow">Morgue Current Base</p>
-            <h3>Current Transformation Base</h3>
-            <p>
-              Текущая зафиксированная база для продолжения:
-              <code>assets/images/Morgue/morgue-v4-evening-lamps-on-door-curtain-short-left-gurney.png</code>
-            </p>
-            <p>
-              Следующие изменения по моргу делаем уже поверх этой версии с
-              короткой левой кушеткой и корректной логикой шторки, а не
-              начинаем заново от нестабильных генераций.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="location" id="hall" aria-labelledby="hall-title">
-        <div class="location-heading">
-          <div>
-            <p class="eyebrow">Location 03</p>
-            <h2 id="hall-title">Main Hall of Vampires</h2>
-          </div>
-          <p class="location-summary">
-            Это не гостиная в бытовом смысле, а основной зал вампиров: место
-            общего плана, стола, композиции как у темной трапезы и атмосферы
-            скромного, но вычурного богатства.
-          </p>
-        </div>
-
-        <div class="gallery-primary">
-          <a class="gallery-item gallery-item-primary" href="./assets/images/Living Room/space-2.jpg" data-lightbox>
-            <img src="./assets/images/Living Room/space-2.jpg" alt="Основной ракурс зала вампиров" />
-          </a>
-          <a class="gallery-item gallery-item-primary" href="./assets/images/Living Room/space-2.1.jpg" data-lightbox>
-            <img src="./assets/images/Living Room/space-2.1.jpg" alt="Второй ракурс зала вампиров" />
-          </a>
-        </div>
-
-        <div class="gallery-thumbs">
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Living Room/IMG_2741.JPEG" data-lightbox>
-            <img src="./assets/images/Living Room/IMG_2741.JPEG" alt="Дополнительный референс основного зала вампиров" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Living Room/IMG_2731.JPEG" data-lightbox>
-            <img src="./assets/images/Living Room/IMG_2731.JPEG" alt="Общий вид основного зала вампиров с колоннами" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Living Room/IMG_6748.JPEG" data-lightbox>
-            <img src="./assets/images/Living Room/IMG_6748.JPEG" alt="Еще один широкий ракурс зала вампиров" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Living Room/IMG_8338.JPEG" data-lightbox>
-            <img src="./assets/images/Living Room/IMG_8338.JPEG" alt="Ракурс зала вампиров от колонн" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Living Room/IMG_8382.JPEG" data-lightbox>
-            <img src="./assets/images/Living Room/IMG_8382.JPEG" alt="Деталь тяжелого деревянного стола для зала вампиров" />
-          </a>
-          <a class="gallery-item gallery-item-thumb" href="./assets/images/Living Room/IMG_2738.JPEG" data-lightbox>
-            <img src="./assets/images/Living Room/IMG_2738.JPEG" alt="Вертикальный ракурс окон и высоты в зале вампиров" />
-          </a>
-        </div>
-
-        <div class="adaptation-block hall-map-block" aria-labelledby="hall-map-title">
-          <div class="adaptation-copy">
-            <p class="eyebrow">Location 03 Hall</p>
-            <h3 id="hall-map-title">Карта помещения</h3>
-            <p>
-              Вид сверху на основной зал, собранный как рабочая карта помещения
-              для обсуждения расстановки, проходов и общей геометрии локации.
-            </p>
-          </div>
-
-          <a class="adaptation-visual hall-map-visual" href="./assets/references/living-room-top-view-clean.png" data-lightbox>
-            <img src="./assets/references/living-room-top-view-clean.png" alt="Карта помещения основного зала вампиров, вид сверху" />
-          </a>
-        </div>
-
-        <div class="adaptation-block hall-map-block" aria-labelledby="hall-map-focus-title">
-          <div class="adaptation-copy">
-            <p class="eyebrow">Location 03 Hall</p>
-            <h3 id="hall-map-focus-title">Зона второго кадра</h3>
-            <p>
-              Та часть плана, которая видна на втором кадре из блока Main Hall
-              of Vampires, выделена зелёным. Дальше концентрируемся на этой
-              области.
-            </p>
-          </div>
-
-          <a class="adaptation-visual hall-map-visual" href="./assets/references/plan_room_кадр_2.png" data-lightbox>
-            <img src="./assets/references/plan_room_кадр_2.png" alt="Карта помещения основного зала вампиров с зелёным выделением зоны второго кадра" />
-          </a>
-        </div>
-
-        <div class="previs-block" aria-labelledby="hall-empty-title">
-          <div class="previs-copy">
-            <p class="eyebrow">Hall Base</p>
-            <h3 id="hall-empty-title">Кадр без стола</h3>
-            <p>
-              Перед серией приближения оставляем два чистых прохода того же
-              кадра вообще без стола: более нейтральный clean plate и более
-              атмосферный пустой вариант в той же архитектуре.
-            </p>
-          </div>
-
-          <div class="gallery-primary">
-            <a class="gallery-item gallery-item-primary" href="./assets/images/Living Room/generated/hall-8339-clean-plate-v1.png" data-lightbox>
-              <img src="./assets/images/Living Room/generated/hall-8339-clean-plate-v1.png" alt="Главный зал вампиров без стола: clean plate того же кадра" />
-            </a>
-            <a class="gallery-item gallery-item-primary" href="./assets/images/Living Room/generated/hall-8339-atmosphere-v1.png" data-lightbox>
-              <img src="./assets/images/Living Room/generated/hall-8339-atmosphere-v1.png" alt="Главный зал вампиров без стола: атмосферный пустой проход того же кадра" />
-            </a>
-          </div>
-        </div>
-
-        <div class="previs-block hall-sequence-hero" aria-labelledby="hall-sequence-title">
-          <div class="previs-copy">
-            <p class="eyebrow">Hall Output</p>
-            <h3 id="hall-sequence-title">Серия приближения к столу</h3>
-            <p>
-              Ниже собрана вся рабочая линейка по одному и тому же кадру
-              <code>hall-8339-table-only</code>: мы не меняем комнату и не
-              пересобираем сцену, а только шаг за шагом двигаем стол ближе к
-              камере.
-            </p>
-            <p>
-              Это полезно как наглядная шкала для выбора нужной степени
-              давления переднего плана: от более сдержанного варианта до
-              агрессивного приближения, где стол уже начинает доминировать в
-              композиции.
-            </p>
-          </div>
-
-          <a class="previs-visual hall-sequence-visual" href="./assets/images/Living Room/generated/hall-8339-table-only-v11.png" data-lightbox>
-            <img src="./assets/images/Living Room/generated/hall-8339-table-only-v11.png" alt="Главный зал вампиров: самый близкий на данный момент проход, где деревянный стол сильно придвинут к камере" />
-          </a>
-        </div>
-
-        <div class="sequence-block" aria-label="Последовательность вариантов приближения стола">
-          <div class="sequence-grid">
-            <a class="gallery-item gallery-item-thumb sequence-item" href="./assets/images/Living Room/generated/hall-8339-table-only-v1.png" data-lightbox>
-              <img src="./assets/images/Living Room/generated/hall-8339-table-only-v1.png" alt="Вариант v1: первый проход зала вампиров со столом" />
-              <span class="sequence-label">v1</span>
-            </a>
-            <a class="gallery-item gallery-item-thumb sequence-item" href="./assets/images/Living Room/generated/hall-8339-table-only-v4.png" data-lightbox>
-              <img src="./assets/images/Living Room/generated/hall-8339-table-only-v4.png" alt="Вариант v4: стол в зале вампиров подан ближе к зрителю" />
-              <span class="sequence-label">v4</span>
-            </a>
-            <a class="gallery-item gallery-item-thumb sequence-item" href="./assets/images/Living Room/generated/hall-8339-table-only-v5.png" data-lightbox>
-              <img src="./assets/images/Living Room/generated/hall-8339-table-only-v5.png" alt="Вариант v5: усиленный передний план со столом в главном зале" />
-              <span class="sequence-label">v5</span>
-            </a>
-            <a class="gallery-item gallery-item-thumb sequence-item" href="./assets/images/Living Room/generated/hall-8339-table-only-v6.png" data-lightbox>
-              <img src="./assets/images/Living Room/generated/hall-8339-table-only-v6.png" alt="Вариант v6: стол заметнее заходит в передний план кадра" />
-              <span class="sequence-label">v6</span>
-            </a>
-            <a class="gallery-item gallery-item-thumb sequence-item" href="./assets/images/Living Room/generated/hall-8339-table-only-v7.png" data-lightbox>
-              <img src="./assets/images/Living Room/generated/hall-8339-table-only-v7.png" alt="Вариант v7: дальнейшее приближение деревянного стола к камере" />
-              <span class="sequence-label">v7</span>
-            </a>
-            <a class="gallery-item gallery-item-thumb sequence-item" href="./assets/images/Living Room/generated/hall-8339-table-only-v8.png" data-lightbox>
-              <img src="./assets/images/Living Room/generated/hall-8339-table-only-v8.png" alt="Вариант v8: крупнее поданный стол в том же мрачном зале" />
-              <span class="sequence-label">v8</span>
-            </a>
-            <a class="gallery-item gallery-item-thumb sequence-item" href="./assets/images/Living Room/generated/hall-8339-table-only-v9.png" data-lightbox>
-              <img src="./assets/images/Living Room/generated/hall-8339-table-only-v9.png" alt="Вариант v9: стол ещё сильнее доминирует в композиции" />
-              <span class="sequence-label">v9</span>
-            </a>
-            <a class="gallery-item gallery-item-thumb sequence-item" href="./assets/images/Living Room/generated/hall-8339-table-only-v10.png" data-lightbox>
-              <img src="./assets/images/Living Room/generated/hall-8339-table-only-v10.png" alt="Вариант v10: агрессивное приближение стола в основном зале вампиров" />
-              <span class="sequence-label">v10</span>
-            </a>
-            <a class="gallery-item gallery-item-thumb sequence-item" href="./assets/images/Living Room/generated/hall-8339-table-only-v11.png" data-lightbox>
-              <img src="./assets/images/Living Room/generated/hall-8339-table-only-v11.png" alt="Вариант v11: текущий самый близкий проход, где стол почти упирается в камеру" />
-              <span class="sequence-label">v11</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="notes-grid">
-          <article class="note-card">
-            <h3>Композиция сцены</h3>
-            <ul>
-              <li>Тяжелый прямоугольный деревянный стол.</li>
-              <li>Скамьи по длинным сторонам и по торцам.</li>
-              <li>Сборка мизансцены вокруг центральной трапезы.</li>
-            </ul>
-          </article>
-
-          <article class="note-card">
-            <h3>Материалы и предметы</h3>
-            <ul>
-              <li>Хром и стекло вместо теплого золота.</li>
-              <li>Канделябры, подсвечники, серебро.</li>
-              <li>Тяжелый деревянный комод между окнами.</li>
-            </ul>
-          </article>
-
-          <article class="note-card">
-            <h3>Свет и атмосфера</h3>
-            <ul>
-              <li>Полумрак с акцентом на столе.</li>
-              <li>Окна работают как вторичный холодный объем.</li>
-              <li>Не уют, а церемониальная тревога.</li>
-            </ul>
-          </article>
-
-          <article class="note-card">
-            <h3>Что важно не потерять</h3>
-            <ul>
-              <li>Масштаб помещения и глубину кадра.</li>
-              <li>Индустриальную базу под слоем ритуальной роскоши.</li>
-              <li>Ощущение, что здесь будет и движение, и драка, и действие.</li>
-            </ul>
-          </article>
-        </div>
+        </article>
       </section>
     </main>
-
-    <dialog class="lightbox" id="lightbox">
-      <form method="dialog" class="lightbox-shell">
-        <button class="lightbox-close" type="submit" aria-label="Закрыть просмотр">
-          Закрыть
-        </button>
-        <img class="lightbox-image" alt="" />
-      </form>
-    </dialog>
-
-    <script type="module" src="./src/scripts/main.js"></script>
   </body>
 </html>

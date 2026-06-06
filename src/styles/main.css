@@ -546,6 +546,23 @@ h1 {
   object-fit: cover;
 }
 
+.hall-map-block {
+  margin-bottom: 22px;
+}
+
+.hall-map-visual {
+  min-height: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.45), transparent 38%),
+    linear-gradient(160deg, rgba(242, 236, 227, 0.96), rgba(224, 216, 204, 0.9));
+}
+
+.hall-map-visual img {
+  aspect-ratio: auto;
+  object-fit: contain;
+  padding: 18px;
+}
+
 .prompt-stack {
   display: grid;
   gap: 18px;
@@ -700,5 +717,13 @@ h1 {
   .gallery-item-thumb {
     min-height: 220px;
     aspect-ratio: auto;
+  }
+
+  .hall-map-visual {
+    min-height: 240px;
+  }
+
+  .hall-map-visual img {
+    padding: 12px;
   }
 }

@@ -1,65 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
   <defs>
     <style>
-      .bg { fill: #ffffff; }
-      .wall { fill: #bfc4bf; stroke: #2f3330; stroke-width: 4; }
-      .inner { fill: #fafbf9; stroke: #383d39; stroke-width: 2; }
-      .glass { fill: #dff7f4; stroke: #6eb9b5; stroke-width: 2; }
-      .opening { fill: #ffffff; }
-      .line { fill: none; stroke: #454b46; stroke-width: 2; }
-      .soft { fill: #d7ddd8; stroke: #6b726c; stroke-width: 2; }
-      .dark { fill: #2a2d31; opacity: 0.92; }
-      .mirror { fill: #cfd5d9; opacity: 0.45; stroke: #798087; stroke-width: 2; }
-      .column { fill: #c9ceca; stroke: #444a45; stroke-width: 2; }
+      .page { fill: #fffdf6; }
+      .room-fill { fill: #7a7a7a; }
+      .wall { fill: none; stroke: #f2c235; stroke-width: 28; stroke-linecap: round; stroke-linejoin: round; }
+      .window { fill: none; stroke: #1f93f1; stroke-width: 28; stroke-linecap: round; stroke-linejoin: round; }
+      .door { fill: none; stroke: #ff4c1f; stroke-width: 28; stroke-linecap: round; stroke-linejoin: round; }
+      .counter { fill: none; stroke: #212121; stroke-width: 34; stroke-linecap: round; stroke-linejoin: round; }
+      .column { fill: #f2c235; stroke: none; }
+      .hint { fill: none; stroke: #dddddd; stroke-width: 34; stroke-linecap: round; stroke-linejoin: round; }
     </style>
   </defs>
 
-  <rect class="bg" width="1400" height="1000"/>
+  <rect class="page" width="1800" height="1200"/>
 
-  <!-- outer walls -->
-  <rect class="wall" x="170" y="150" width="820" height="520"/>
-  <rect class="inner" x="192" y="172" width="776" height="476"/>
+  <!-- room mass -->
+  <path class="room-fill" d="M146 246 H1518 V378 H1690 V1058 H120 V246 Z"/>
 
-  <!-- openings on window wall -->
-  <rect class="opening" x="250" y="648" width="110" height="22"/>
-  <rect class="opening" x="438" y="648" width="110" height="22"/>
-  <rect class="opening" x="780" y="648" width="64" height="22"/>
-
-  <!-- windows / glazed door -->
-  <rect class="glass" x="250" y="610" width="110" height="38"/>
-  <rect class="glass" x="438" y="610" width="110" height="38"/>
-  <rect class="glass" x="780" y="580" width="64" height="68"/>
-
-  <!-- back wall doorway -->
-  <rect class="opening" x="968" y="330" width="22" height="110"/>
-  <path class="line" d="M968 330 A110 110 0 0 1 858 440"/>
-  <path class="line" d="M990 440 A110 110 0 0 0 880 330"/>
-
-  <!-- technical opening -->
-  <rect class="opening" x="170" y="322" width="22" height="72"/>
-  <path class="line" d="M192 322 A72 72 0 0 0 264 394"/>
-
-  <!-- mirror/service block -->
-  <rect class="mirror" x="192" y="248" width="348" height="198"/>
-  <line class="line" x1="192" y1="446" x2="540" y2="446"/>
-
-  <!-- dark zone -->
-  <rect class="dark" x="776" y="172" width="192" height="476"/>
-
-  <!-- main internal divider suggestion -->
-  <line class="line" x1="776" y1="172" x2="776" y2="648" opacity="0.5"/>
+  <!-- outer walls with right-side notch -->
+  <path class="wall" d="M146 246 L1518 246 L1518 378 L1690 378 L1690 1058 L120 1058 L120 246 L146 246"/>
 
   <!-- columns -->
-  <rect class="column" x="322" y="214" width="28" height="28"/>
-  <rect class="column" x="510" y="214" width="28" height="28"/>
-  <rect class="column" x="698" y="214" width="28" height="28"/>
-  <rect class="column" x="886" y="214" width="28" height="28"/>
+  <circle class="column" cx="430" cy="370" r="38"/>
+  <circle class="column" cx="710" cy="370" r="38"/>
+  <circle class="column" cx="990" cy="370" r="38"/>
+  <circle class="column" cx="1235" cy="390" r="38"/>
 
-  <!-- radiators -->
-  <rect class="soft" x="256" y="578" width="98" height="18"/>
-  <rect class="soft" x="444" y="578" width="98" height="18"/>
+  <!-- counter -->
+  <path class="counter" d="M1235 290 L1235 390 L1465 390"/>
 
-  <!-- duct axis hint -->
-  <line class="line" x1="260" y1="332" x2="872" y2="332" opacity="0.25"/>
-  <line class="line" x1="260" y1="364" x2="872" y2="364" opacity="0.18"/>
+  <!-- side doors -->
+  <path class="door" d="M120 520 L120 620"/>
+  <path class="door" d="M1690 430 L1690 530"/>
+
+  <!-- bottom windows and door -->
+  <path class="window" d="M250 1058 L410 1058"/>
+  <path class="window" d="M590 1058 L750 1058"/>
+  <path class="window" d="M930 1058 L1090 1058"/>
+  <path class="door" d="M1260 1058 L1410 1058"/>
+  <path class="window" d="M1500 1058 L1660 1058"/>
+
+  <!-- simple upper hint -->
+  <path class="hint" d="M355 108 C310 162 288 196 240 254 C346 202 438 166 584 142 C486 206 438 242 430 246 C530 200 666 112 826 12 C774 122 782 152 856 134 C964 94 1018 66 1180 10 C1130 120 1140 150 1206 126 C1282 92 1340 72 1504 34 C1448 126 1452 148 1532 132 C1614 100 1676 62 1750 18"/>
 </svg>
